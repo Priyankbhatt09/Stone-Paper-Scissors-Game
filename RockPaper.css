@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#buttonContainer{
+    width: 80px;
+    border:2px solid black;
+     
+   
+    display:flex;
+align-content: center;
+    align-items: center;
+    
+}
+
+#Mode{
+    background-color: black;
+    color : white;
+    border-radius: 5%;
+    font-family: cursive;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#Mode:hover{
+    
+    
+}
+
+#ChangeMode{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.dark{
+    background-color: black;
+}
+.light{
+    background-color: white;
+}
+
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.choice:hover{
+    cursor: pointer;
+    opacity: 50%;
+
+}
+
+img{
+    
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+   
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score , #comp-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    padding: 1rem;
+    margin-top: 5rem;
+    display: inline;
+    background-color: #081b31;
+    color : white;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
